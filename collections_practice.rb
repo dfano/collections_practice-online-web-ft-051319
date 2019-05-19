@@ -20,6 +20,10 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
+  arr.each do |item|
+    item.split
+    item[2] = "$"
+  end
 end
 
 def find_a(arr)
