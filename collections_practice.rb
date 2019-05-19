@@ -35,4 +35,12 @@ def sum_array(arr)
 end
 
 def add_s(arr)
+  new_arr = arr.each_with_index.map do |word,i|
+      if i == 1
+        "#{word}"
+      else
+        "#{word}s"
+      end
+    end
+  new_arr
 end
