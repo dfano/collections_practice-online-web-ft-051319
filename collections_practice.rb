@@ -27,6 +27,7 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
+  arr.select{|name| name.start_with?('a')}
 end
 
 def sum_array(arr)
